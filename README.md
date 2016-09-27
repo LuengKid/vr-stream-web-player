@@ -4,6 +4,9 @@
 
 利用VR场景作为背景,接入直播视频流,进行在VR场景内观看直播的网页播放器.
 
+##项目演示
+
+[VR直播网页播放demo][demo] (可在PC/Android/iphone 利用chrome浏览器打开)
 
 ## 项目相关
 
@@ -25,9 +28,9 @@
 
 
 
-## H5问题
+## 适配平台
 
-本项目可以适配手机,但在利用作者安卓手机进行视频播放时,视频停格在了某帧后就不能播放.iphone手机上还没进行测试.
+本项目可以适配手机,可以在Android/iphone手机的chrome浏览器上进行播放.
 
 在PC端chrome可以流畅播放直播及背景视频. 
 
@@ -41,7 +44,7 @@
 
 ### 联系作者:Kid Lueng
 
- e-mail:100520140@qq.com
+ QQ交流群: 241587879(验证信息:VR直播) e-mail:100520140@qq.com
 
 ## 相关项目
 
@@ -56,3 +59,4 @@
 [hls]: https://github.com/dailymotion/hls.js
 [three.js]: https://threejs.org
 [pd]: http://panda.tv
+[demo]:http://vr.kidlueng.com
