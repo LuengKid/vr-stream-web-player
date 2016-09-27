@@ -172,7 +172,7 @@ for(var i=0;i<12;i++){
 
   //* Cubemap video faces are expanded 1.01 by ffmpeg transform,fix them here.
   function fixVU(geometry){
-  var fixP=0.002;
+  var fixP=0.0018;
   for(var i=0;i<12;i+=2){
     geometry.faceVertexUvs[0][i][0].y-=fixP;
     geometry.faceVertexUvs[0][i][2].y-=fixP;
@@ -443,6 +443,11 @@ if (Hls.isSupported()) {
         playVideo(video2);
     });
 }
+
+$(renderer.domElement).on('click',function(){
+  video.play();
+  video2.play();
+});
 </script>
 
 </html>
