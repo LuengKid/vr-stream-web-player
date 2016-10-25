@@ -2,7 +2,11 @@
 
 ##项目介绍
 
-利用VR场景作为背景,接入直播视频流,进行在VR场景内观看直播的网页播放器.
+1.利用VR场景作为背景,接入直播视频流,进行在VR场景内观看直播的网页播放器.
+
+2.采用绿幕内容视频+全景背景视频+3D模型前景合成VR场景
+
+3.支持cubemap全景视频与普通全景视频
 
 ##项目演示
 
@@ -12,7 +16,7 @@
 
 本项目基于VR场景构造github项目 [WebVR Boilerplate][wb].
 
-用 three.js 对VR场景进行构造,利用 [facebook transform][fbtf] 将全景视频转换为 cubemap 视频再进行展示.
+用 three.js 对VR场景进行构造,支持普通全景视频和 [facebook transform][fbtf] 转换 cubemap 视频.
 
 利用 [hls.js][hls] 进行H5内播放直播视频.
 
