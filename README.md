@@ -64,3 +64,7 @@
 [three.js]: https://threejs.org
 [pd]: http://panda.tv
 [demo]:http://vr.kidlueng.com
+
+## 鸣谢支持
+
+@龙凤凤舞
