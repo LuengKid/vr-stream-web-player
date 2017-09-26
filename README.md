@@ -38,6 +38,11 @@
 
 在PC端chrome可以流畅播放直播及背景视频. 
 
+
+## 说明博客
+ [VR视频直播播放器][blog]
+ 
+
 ## nginx反向代理配置
 
     resolver 114.114.114.114;
@@ -63,7 +68,8 @@
 [hls]: https://github.com/dailymotion/hls.js
 [three.js]: https://threejs.org
 [pd]: http://panda.tv
-[demo]:http://vr.kidlueng.com
+[demo]:http://demo.kidlueng.com
+[blog]:http://blog.csdn.net/langhaoben/article/details/70257019
 
 ## 鸣谢支持
 
